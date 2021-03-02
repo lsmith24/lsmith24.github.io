@@ -1,0 +1,41 @@
+h1 {
+    font-family: 'Noto Sans SC', sans-serif;
+    text-align: center;
+    color: rgb(60, 126, 60);
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: 'Noto Sans SC', sans-serif;
+    text-align: center;
+    color: rgb(60, 126, 60);
+}
+
+a, ul, ol {
+    color: rgb(88, 175, 88);
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 22px;
+    padding-left: 100px;
+}
+
+body {
+    background-color: #f8ebd6;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+}
+
+
+.row:after {
+    content:"";
+    display:table;
+    clear:both;
+}
+
+img {
+    padding-top: 15px;
+    padding-left: 115px;
+}
+
+
