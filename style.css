@@ -1,24 +1,26 @@
 h1 {
-    font-family: 'Noto Sans SC', sans-serif;
+    font-family: 'Lobster', cursive;
     text-align: center;
-    color: rgb(60, 126, 60);
+    color: rgb(255, 255, 255);
+    font-size: 300%;
 }
 
 h2, h3, h4, h5, h6 {
     font-family: 'Noto Sans SC', sans-serif;
     text-align: center;
-    color: rgb(60, 126, 60);
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 177, 216);
 }
 
 a, ul, ol {
-    color: rgb(88, 175, 88);
+    color: rgb(255, 255, 255);
     font-family: 'PT Sans Narrow', sans-serif;
     font-size: 22px;
     padding-left: 100px;
 }
 
 body {
-    background-color: #f8ebd6;
+    background-color: #2e2110;
 }
 
 .column {
@@ -34,8 +36,9 @@ body {
 }
 
 img {
-    padding-top: 15px;
+    padding-top: 20px;
     padding-left: 115px;
+    padding-bottom: 20px;
 }
 
 
