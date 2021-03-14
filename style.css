@@ -9,7 +9,7 @@ h2, h3, h4, h5, h6 {
     font-family: 'Noto Sans SC', sans-serif;
     text-align: center;
     color: rgb(255, 255, 255);
-    background-color: rgb(255, 247, 177);
+    background-color: rgb(63, 112, 84);
 }
 
 a, ul, ol {
@@ -20,7 +20,7 @@ a, ul, ol {
 }
 
 body {
-    background-color: #ddffd4;
+    background-color: #acd4a1;
 }
 
 .column {
