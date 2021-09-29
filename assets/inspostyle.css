@@ -1,0 +1,61 @@
+body {
+        background-color:  black;
+        color:  white;
+        font-family: arial;
+}
+
+a {
+        color:  white;
+        font-family: arial;
+        font-size: 30px;
+        text-decoration: none;
+}
+
+img {
+        max-width: 1200px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 20px;
+        /*padding-left: 100px;*/
+}
+
+h1 {
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 25px;
+        background-color: #E2699F;
+}
+
+.nav {
+        display: flex;
+        flex-direction: row;
+}
+
+.topic {
+        padding-top: 20px;
+}
+
+.page {
+        padding: 30px;
+        text-align: justify-all;
+        font-weight: bold;
+}
+
+.inspo:hover {
+        background-color: #E2699F;
+}
+
+.howto:hover {
+        background-color: #79DFCD;
+}
+
+.products:hover {
+        background-color: #B45BEB;
+}
+
+.photos:hover {
+        background-color: #1671F9;
+}
+

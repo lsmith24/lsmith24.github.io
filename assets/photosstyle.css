@@ -1,0 +1,67 @@
+body {
+        background-color:  black;
+        color:  white;
+        font-family: arial;
+}
+
+a {
+        color:  white;
+        font-family: arial;
+        font-size: 30px;
+        text-decoration: none;
+}
+
+h1 {
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 25px;
+        background-color: #1671F9;
+}
+
+img {
+        max-width: 20%;
+}
+
+.topic {
+        padding-top: 20px;
+        padding-bottom: 10px;
+}
+
+.pics {
+        padding-top: 20px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        grid-gap: 10px;
+        align-items: flex-start;
+        align-content: flex-start;
+        justify-content: center;
+}
+
+.nav {
+        display: flex;
+        flex-direction: row;
+}
+
+.page {
+        padding: 30px;
+        text-align: justify-all;
+        font-weight: bold;
+}
+
+.inspo:hover {
+        background-color: #E2699F;
+}
+
+.howto:hover {
+        background-color: #79DFCD;
+}
+
+.products:hover {
+        background-color: #B45BEB;
+}
+
+.photos:hover {
+        background-color: #1671F9;
+}

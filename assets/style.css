@@ -1,0 +1,66 @@
+
+body {
+        background-color: black;
+        color: white;
+        font-family: arial;
+}
+
+a {
+        color:  white;
+        font-family: arial;
+        font-size: 30px;
+        text-decoration: none;
+}
+
+img {
+        width: 400px;
+        padding-top: 50px;
+        padding-left: 50px;
+}
+
+p {
+        font-size: 20px;
+}
+
+.nav {
+        display: flex;
+        flex-direction: row;
+}
+
+.section {
+        display:  flex;
+        align-items: flex-start;
+        justify-content: center;
+}
+
+.item {
+        max-width: 100%;
+}
+
+.item-text {
+        padding-left: 20px;
+        padding-top: 50px;
+        padding-right: 100px;
+}
+
+.page {
+        padding: 30px;
+        text-align: justify-all;
+        font-weight: bold;
+}
+
+.inspo:hover {
+        background-color: #E2699F;
+}
+
+.howto:hover {
+        background-color: #79DFCD;
+}
+
+.products:hover {
+        background-color: #B45BEB;
+}
+
+.photos:hover {
+        background-color: #1671F9;
+}
