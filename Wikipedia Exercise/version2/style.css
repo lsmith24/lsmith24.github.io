@@ -1,0 +1,89 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	background-color: rgb(80, 111, 140);
+	color: black;
+	font-size: 18px;
+	border-style: dashed;
+	border-color: black;
+}
+
+img {
+	max-height: 400px;
+	padding-left: 10px;
+}
+
+h1 {
+	color: rgb(255, 248, 189);
+	font-family: 'Gluten', cursive;
+	font-weight: lighter;
+	font-size: 50px;
+	padding-left: 12px;
+	margin: 0;
+	padding-top: 20px;
+	padding-bottom: 5px;
+}
+
+h2 {
+	color: rgb(255, 248, 189);
+	font-family: 'Gluten', cursive;;
+	font-size: 38px;
+	margin: 0;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	font-weight: lighter;
+}
+
+p {
+	margin: 0;
+	padding-bottom: 20px;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.list {
+	padding-bottom: 20px;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+	grid-gap: 10px;
+	align-items: flex-start;
+	padding-bottom: 25px;
+}
+
+.title {
+	display: flex;
+	justify-content: center;
+	margin: 0;
+}
+
+.text {
+	font-size: 20px;
+}
+
+.button {
+	display: flex;
+	justify-content: center;
+	padding-top: 20px;
+}
+
+.button-image {
+	max-width: 200px;
+	padding: 0;
+}
+
+.subtitle {
+	display: flex;
+	justify-content: center;
+	background-color: rgb(80, 111, 140);
+	padding-bottom: 20px;
+	margin: 0;
+	font-size: 30px;
+	font-weight: lighter;
+}
