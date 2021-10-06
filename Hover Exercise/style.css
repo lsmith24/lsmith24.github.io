@@ -1,0 +1,74 @@
+h2 {
+	font-size: 60px;
+	font-family: sans-serif;
+	text-align: center;
+	padding-top: 30px;
+}
+
+.squares {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.col {
+	flex: 14%;
+	padding: 5px;
+}
+
+.red:hover {
+	cursor: pointer;
+	display: block;
+	content: url(images/red2.jpg);
+	position: fixed;
+	top: 60%;
+}
+
+.orange:hover {
+	cursor: pointer;
+	display: block;
+	content: url(images/orange2.jpg);
+	position: fixed;
+	top: 60%;
+}
+
+.pink:hover {
+	cursor: pointer;
+	display: block;
+	content: url(images/pink2.jpg);
+	position: fixed;
+	top: 60%;
+}
+
+.blue:hover {
+	cursor: pointer;
+	display: block;
+	content: url(images/blue2.jpg);
+	position: fixed;
+	top: 60%;
+}
+
+.green:hover {
+	cursor: pointer;
+	display: block;
+	content: url(images/green2.jpg);
+	position: fixed;
+	top: 60%;
+}
+
+.purple:hover {
+	cursor: pointer;
+	display: block;
+	content: url(images/purple2.jpg);
+	position: fixed;
+	top: 60%;
+}
+
+.yellow:hover {
+	cursor: pointer;
+	display: block;
+	content: url(images/yellow2.jpg);
+	position: fixed;
+	top: 60%;
+}
