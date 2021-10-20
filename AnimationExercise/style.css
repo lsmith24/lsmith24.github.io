@@ -1,0 +1,128 @@
+body {
+	background-color: black;
+	animation: backgroundAnimate 12s linear infinite;
+}
+
+@keyframes backgroundAnimate {
+	0% {
+		background-color: black;
+	}
+	20% {
+		background-color: rgb(8, 66, 35);
+	}
+	40% {
+		background-color: rgb(13, 38, 87);
+	}
+	50% {
+		background-color: rgb(57, 20, 99);
+	}
+	60% {
+		background-color: rgb(84, 24, 84);
+	}
+	80% {
+		background-color: rgb(89, 18, 49);
+	}
+	100% {
+		background-color: black;
+	}
+}
+
+@keyframes shapeAnimate1 {
+  0% {
+    transform: scale(1.0) rotate(0deg) translateX(10px);
+  }
+  30% {
+  	transform: scale(2.0) rotate(30deg) translateY(10px);
+  }
+  50% {
+    transform: scale(3.0) rotate(-10deg) translateX(-20px);
+  }
+  65% {
+  	transform: scale(2.0) rotate(-40deg) translateY(-20px);
+  }
+  100% {
+  	transform: scale(1.0) rotate(0deg) translate(0px);
+  }
+}
+
+@keyframes shapeAnimate2 {
+  0% {
+    transform: scale(1.0) rotate(0deg) translateY(20px);
+  }
+  30% {
+  	transform: scale(2.5) rotate(-30deg) translateX(10px);
+  }
+  50% {
+    transform: scale(3.5) rotate(10deg) translateY(-10px);
+  }
+  65% {
+  	transform: scale(2.5) rotate(40deg) translateX(-25px);
+  }
+  100% {
+  	transform: scale(1.0) rotate(0deg) translate(0px);
+  }
+}
+
+#white {
+	animation: shapeAnimate1 5s linear infinite; 
+	height: 400px;
+	position: fixed;
+	bottom: 150px;
+	right: 600px;
+}
+
+#pink {
+	animation: shapeAnimate2 6s linear infinite;
+	height: 500px;
+	position: fixed;
+	top: 10px;
+	left: 50px;
+}
+
+#blue {
+	animation: shapeAnimate1 9s linear infinite;
+	height: 400px;
+	position: fixed;
+	bottom: 0px;
+	left: 30px;
+}
+
+#yellow {
+	animation: shapeAnimate2 5s linear infinite;
+	height: 450px;
+	position: fixed;
+	bottom: 0px;
+	left: 300px;
+}
+
+#green {
+	animation: shapeAnimate1 7s linear infinite;
+	height: 450px;
+	position: fixed;
+	top: 0px;
+	left: 430px;
+}
+
+#purple {
+	animation: shapeAnimate1 4s linear infinite;
+	height: 400px;
+	position: fixed;
+	bottom: 20px;
+	right: 300px;
+}
+
+#orange {
+	animation: shapeAnimate2 6s linear infinite;
+	height: 400px;
+	position: fixed;
+	bottom: 50px;
+	right: 0px;
+}
+
+#turquoise {
+	animation: shapeAnimate1 8s linear infinite;
+	height: 450px;
+	position: fixed;
+	top: 0px;
+	right: 130px;
+}
