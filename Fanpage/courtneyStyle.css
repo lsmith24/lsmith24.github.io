@@ -1,0 +1,79 @@
+body {
+	background-color: rgb(230, 182, 198);
+}
+
+.rg2 {
+	position: absolute;
+	top: 50px;
+	left: 10%;
+	max-width: 200px;
+	visibility: visible;
+	transform: rotate(-5deg);
+}
+
+.rg1 {
+	position: absolute;
+	top: 50px;
+	left: 10%;
+	max-width: 200px;
+	visibility: visible;
+	transform: rotate(-5deg);
+}
+
+.rg1:hover {
+	visibility: hidden;
+	max-width: 500px;
+}
+
+.viv1 {
+	position: absolute;
+	top: 70px;
+	left: 33%;
+	max-width: 200px;
+	transform: rotate(7deg);
+}
+
+.viv2 {
+	position: absolute;
+	top: 70px;
+	left: 33%;
+	max-width: 200px;
+	visibility: visible;
+	transform: rotate(7deg);
+}
+
+.viv1:hover {
+	visibility: hidden;
+	max-width: 500px;
+}
+
+.court2 {
+	position: absolute;
+	top: 50px;
+	right: 33%;
+	max-width: 200px;
+	visibility: visible;
+	transform: rotate(-3deg);
+}
+
+.sr1 {
+	position: absolute;
+	top: 77px;
+	right: 10%;
+	max-width: 200px;
+	transform: rotate(5deg);
+}
+
+.sr2 {
+	position: absolute;
+	top: 77px;
+	right: 10%;
+	max-width: 200px;
+	visibility: visible;
+	transform: rotate(5deg);
+}
+
+.sr1:hover {
+	visibility: hidden;
+	max-width: 500px;
+}

@@ -1,0 +1,186 @@
+body {
+	background-color: rgb(230, 182, 198);
+}
+
+.rg2 {
+	position: absolute;
+	top: 50px;
+	left: 10%;
+	max-width: 200px;
+	visibility: visible;
+	transform: rotate(-5deg);
+}
+
+.viv1 {
+	position: absolute;
+	top: 70px;
+	left: 33%;
+	max-width: 200px;
+	transform: rotate(7deg);
+}
+
+.viv2 {
+	position: absolute;
+	top: 70px;
+	left: 33%;
+	max-width: 200px;
+	visibility: visible;
+	transform: rotate(7deg);
+}
+
+.viv1:hover {
+	visibility: hidden;
+	max-width: 500px;
+}
+
+.court1 {
+	position: absolute;
+	top: 50px;
+	right: 33%;
+	max-width: 200px;
+	transform: rotate(-3deg);
+}
+
+.court2 {
+	position: absolute;
+	top: 50px;
+	right: 33%;
+	max-width: 200px;
+	visibility: visible;
+	transform: rotate(-3deg);
+}
+
+.court1:hover {
+	visibility: hidden;
+	max-width: 500px;
+}
+
+.sr1 {
+	position:absolute;
+	top: 77px;
+	right: 10%;
+	max-width: 200px;
+	transform: rotate(5deg);
+}
+
+.sr2 {
+	position: absolute;
+	top: 77px;
+	right: 10%;
+	max-width: 200px;
+	visibility: visible;
+	transform: rotate(5deg);
+}
+
+.sr1:hover {
+	visibility: hidden;
+	max-width: 500px;
+}
+
+.heading {
+	position: absolute;
+	top: 20%;
+	left: 3%;
+	max-width: 500px;
+	transform: rotate(-3deg);
+}
+
+p {
+	margin: 0px;
+	font-family: 'Arial';
+	font-weight: bold;
+}
+
+.boxText {
+	font-size: 28px;
+	outline-style: dashed;
+	outline-color: black;
+	padding: 15px;
+	text-indent: 40px;
+}
+
+.p1 {
+	max-width: 550px;
+	position: absolute;
+	top: 48%;
+	left: 12%;
+}
+
+.img1 {
+	position: absolute;
+	max-width: 400px;
+	right: 360px;
+	top: 55%;
+	transform: rotate(-5deg);
+	opacity: 90%;
+}
+
+.img8 {
+	position: absolute;
+	max-width: 450px;
+	right: 80px;
+	top: 29%;
+	transform: rotate(6deg);
+}
+
+.quote {
+	font-size: 24px;
+	position: absolute;
+	left: 50%;
+	margin-left: -650px;
+	text-align: center;
+	max-width: 1300px;
+	top: 730px;
+}
+
+.img2 {
+	position: absolute;
+	max-width: 500px;
+	top: 850px;
+	left: 230px;
+	transform: rotate(-4deg);
+}
+
+.img3 {
+	max-width: 500px;
+	position: absolute;
+	top: 1000px;
+	right: 320px;
+	transform: rotate(3deg);
+}
+
+.p2 {
+	position: absolute;
+	max-width: 500px;
+	top: 1250px;
+	right: 10%;
+}
+
+.img4 {
+	position: absolute;
+	top: 1270px;
+	left: 12%;
+}
+
+.img5 {
+	max-width: 600px;
+	position: absolute;
+	top: 1750px;
+	left: 10%;
+	transform: rotate(-3deg);
+}
+
+.img6 {
+	max-width: 600px;
+	position: absolute;
+	top: 1820px;
+	right: 10%;
+	transform: rotate(4deg);
+}
+
+.img7 {
+	position: absolute;
+	top: 1940px;
+	left: 2%;
+	transform: rotate(-10deg);
+}

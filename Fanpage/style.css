@@ -1,0 +1,118 @@
+body {
+	background-color: rgb(230, 182, 198);
+}
+
+.img1 {
+	max-width: 650px;
+	position: fixed;
+	top: -100px;
+	left:  32%;
+	/*margin-left: -325px;*/
+}
+
+.img2 {
+	max-width: 300px;
+	position: fixed;
+	top: -30px;
+	transform: rotate(7deg);
+	right: 30px;
+}
+
+.img3 {
+	position: fixed;
+	left: -7px;
+	top: 20%;
+	transform: rotate(-5deg);
+	max-width: 450px;
+	opacity: 95%;
+}
+
+.img4 {
+	position: fixed;
+	left: 20px;
+	top: 58%;
+	transform: rotate(5deg);
+	max-width: 450px;
+	opacity: 90%;
+}
+
+.img5 {
+	position: fixed;
+	left: -20px;
+	top: 2%;
+	max-width: 200px;
+}
+
+.img6 {
+	position: fixed;
+	left: -30px;
+	bottom: -40px;
+	max-width: 600px;
+}
+
+.img7 {
+	position: fixed;
+	bottom: 0px;
+	left: 27%;
+	max-width: 500px;
+	transform: rotate(15deg);
+}
+
+.img8 {
+	position: fixed;
+	bottom: -70px;
+	left: 43%;
+	max-width: 400px;
+}
+
+.img9 {
+	position: fixed;
+	top: 32%;
+	right: -20px;
+	max-width: 500px;
+}
+
+.img10 {
+	position: fixed;
+	bottom: -80px;
+	right: 0px;
+	max-width: 600px;
+}
+
+.img11 {
+	position: fixed;
+	top: 10px;
+	left: 140px;
+	max-width: 500px;
+	transform: rotate(8deg);
+	opacity: 90%;
+}
+
+.text {
+	position: fixed;
+	top: 44%;
+	left: 50%;
+	margin-left: -400px;
+	/*background-color: rgb(230, 182, 198);*/
+	background-color: white;
+	padding-left: 15px;
+	padding-right: 15px;
+	outline-style: solid;
+	/*outline-color: black;*/
+	outline-color: black;
+	outline-width: 3px;
+}
+
+h1 {
+	font-size: 32px;
+	color: black;
+	font-family: 'Source Code Pro', monospace;
+}
+
+h1:hover {
+	color: rgb(230, 182, 198);;
+}
+
+a {
+	text-decoration: none;
+}
