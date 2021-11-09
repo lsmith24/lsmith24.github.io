@@ -45,8 +45,8 @@ function drawDot() {
     dot.x = x;
     dot.y = y;
     dot.draw();
-    x += (nextDot.x - dot.x) * 0.6;
-    y += (nextDot.y - dot.y) * 0.6;
+    x += (nextDot.x - dot.x) * 0.8;
+    y += (nextDot.y - dot.y) * 0.8;
   });
 }
 
