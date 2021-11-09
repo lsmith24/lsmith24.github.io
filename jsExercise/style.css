@@ -1,0 +1,14 @@
+body {
+	background-color: black;
+	max-height: 2000px;
+	max-width: 2000px;
+}
+
+.circle {
+	position: absolute;
+	transform: translate(-50%, -50%);
+	height: 30px;
+	width: 30px;
+	background: white;
+	border-radius: 50%;
+}
