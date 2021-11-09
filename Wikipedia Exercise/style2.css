@@ -1,11 +1,13 @@
 body {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: bold;
-	background-color: rgb(80, 111, 140);
+	background-color: white;
 	color: black;
 	font-size: 18px;
 	border-style: dashed;
 	border-color: black;
+	padding-left: 30px;
+	padding-right: 30px;
 }
 
 img {
@@ -14,7 +16,7 @@ img {
 }
 
 h1 {
-	color: rgb(255, 248, 189);
+	color: navy;
 	font-family: 'Gluten', cursive;
 	font-weight: lighter;
 	font-size: 50px;
@@ -25,7 +27,7 @@ h1 {
 }
 
 h2 {
-	color: rgb(255, 248, 189);
+	color: navy;
 	font-family: 'Gluten', cursive;;
 	font-size: 38px;
 	margin: 0;
@@ -69,7 +71,9 @@ p {
 
 .button {
 	display: flex;
+	flex-direction: row;
 	justify-content: center;
+	align-items: center;
 	padding-top: 20px;
 }
 
@@ -81,7 +85,7 @@ p {
 .subtitle {
 	display: flex;
 	justify-content: center;
-	background-color: rgb(80, 111, 140);
+	/*background-color: white;*/
 	padding-bottom: 20px;
 	margin: 0;
 	font-size: 30px;
