@@ -86,8 +86,8 @@ body {
 
 p {
 	margin: 0px;
-	font-family: 'Arial';
-	font-weight: bold;
+	/*font-family: 'Arial';
+	font-weight: bold;*/
 }
 
 .boxContainer {
@@ -97,6 +97,8 @@ p {
 
 .boxText {
 	font-size: 28px;
+	font-family: 'Arial';
+	font-weight: bold;
 	outline-style: dashed;
 	outline-color: black;
 	padding: 15px;
@@ -131,6 +133,7 @@ p {
 
 .quote {
 	font-size: 24px;
+	font-family: 'Source Code Pro', monospace;
 	padding-top: 5%;
 	text-align: center;
 	display: flex;
