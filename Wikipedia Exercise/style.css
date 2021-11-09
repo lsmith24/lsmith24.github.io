@@ -3,6 +3,7 @@ body {
 	background-color: rgb(56, 77, 97);
 	color: rgb(255, 248, 189);
 	font-size: 20px;
+	padding: 30px;
 }
 
 img {
@@ -15,17 +16,40 @@ h1 {
 }
 
 h2 {
-	font-size: 35px;
+	font-size: 40px;
 	margin: 0;
 	padding-top: 5px;
 	padding-bottom: 5px;
-	background-color: rgb(18, 41, 64);
 }
 
 p {
 	margin: 0;
 	padding-bottom: 20px;
 	padding-top: 10px;
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.img1 {
+	max-width: 250px;
+	max-height: 250px;
+	border-radius: 125px;
+}
+
+.p1 {
+	max-width: 1000px;
+}
+
+.moviePoster {
+	border-radius: 10px;
+	max-width: 250px;
 }
 
 .list {
@@ -42,20 +66,22 @@ p {
 }
 
 .title {
-	background-color: rgb(18, 41, 64);
 	max-width: 380px;
 }
 
 .text {
-	font-size: 24px;
+	max-width: 1000px;
 }
 
 .button {
 	display: flex;
+	flex-direction: row;
 	justify-content: center;
+	align-items: center;
 	padding-top: 20px;
 }
 
 .button-image {
 	max-width: 200px;
+	padding: 0;
 }
