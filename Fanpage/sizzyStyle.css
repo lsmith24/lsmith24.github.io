@@ -145,6 +145,10 @@ body {
 	margin-bottom: 50px;
 }
 
+p {
+	margin: 0px;
+}
+
 @media only screen and (max-width:  800px) {
 	.heading {
 		padding-top: 100px;
