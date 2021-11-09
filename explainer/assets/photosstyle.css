@@ -42,6 +42,7 @@ img {
 .nav {
         display: flex;
         flex-direction: row;
+        grid-gap: 20px;
 }
 
 .page {
@@ -50,18 +51,14 @@ img {
         font-weight: bold;
 }
 
-.inspo:hover {
-        background-color: #E2699F;
-}
-
 .howto:hover {
-        background-color: #79DFCD;
+        background-color: #E2699F;
 }
 
 .products:hover {
         background-color: #B45BEB;
 }
 
-.photos:hover {
+.photos {
         background-color: #1671F9;
 }

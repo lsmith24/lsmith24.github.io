@@ -25,6 +25,7 @@ p {
 .nav {
         display: flex;
         flex-direction: row;
+        grid-gap: 20px;
 }
 
 .section {
@@ -49,12 +50,12 @@ p {
         font-weight: bold;
 }
 
-.inspo:hover {
-        background-color: #E2699F;
+span {
+        font-weight: bold;
 }
 
-.howto:hover {
-        background-color: #79DFCD;
+.howto {
+        background-color: #E2699F;
 }
 
 .products:hover {
