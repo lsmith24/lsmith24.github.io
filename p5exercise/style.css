@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right {
+  margin-top: 20px;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  grid-gap: 100px;
+}
+
+h1 {
+  margin-bottom: 30px;
+}
+
+h2 {
+  margin-top: 120px;
+}
+
+.r {
+  position: absolute;
+  top: 42%;
+  left:  20%;
+
+-webkit-appearance: none;  /* Override default CSS styles */
+  appearance: none;
+  width: 100px; /* Specified height */
+  height: 10px; /* Specified height */
+    /*background: white; /* background color */*/
+  outline-color: black;
+  outline: solid; /* Remove outline */
+  border-radius: 5px;
+}
+
+.r::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  width: 15px; /* Set a specific slider handle width */
+  height: 15px; /* Slider handle height */
+  border-radius: 50%; /* Make it a circle */
+  background: red; /*  background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+.r::-moz-range-thumb {
+  width: 15px; /* Set a specific slider handle width */
+  height: 15px; /* Slider handle height */
+  background: red;
+  cursor: pointer; /* Cursor on hover */
+}
+
+.g {
+  position: absolute;
+  left: 20%;
+  top: 47%;
+  -webkit-appearance: none;  /* Override default CSS styles */
+  appearance: none;
+  width: 100px; /* Specified height */
+  height: 10px; /* Specified height */
+    /*background: white; /* background color */*/
+  outline-color: black;
+  outline: solid; /* Remove outline */
+  border-radius: 5px;
+}
+
+.g::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  width: 15px; /* Set a specific slider handle width */
+  height: 15px; /* Slider handle height */
+  border-radius: 50%; /* Make it a circle */
+  background: green; /*  background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+.g::-moz-range-thumb {
+  width: 15px; /* Set a specific slider handle width */
+  height: 15px; /* Slider handle height */
+  background: green;
+  cursor: pointer; /* Cursor on hover */
+}
+
+.b {
+  position: absolute;
+  left: 20%;
+  top: 52%;
+  -webkit-appearance: none;  /* Override default CSS styles */
+  appearance: none;
+  width: 100px; /* Specified height */
+  height: 10px; /* Specified height */
+    /*background: white; /* background color */*/
+  outline-color: black;
+  outline: solid; /* Remove outline */
+  border-radius: 5px;
+}
+
+.b::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  width: 15px; /* Set a specific slider handle width */
+  height: 15px; /* Slider handle height */
+  border-radius: 50%; /* Make it a circle */
+  background: blue; /*  background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+.b::-moz-range-thumb {
+  width: 15px; /* Set a specific slider handle width */
+  height: 15px; /* Slider handle height */
+  background: blue;
+  cursor: pointer; /* Cursor on hover */
+}
