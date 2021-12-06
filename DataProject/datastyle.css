@@ -1,0 +1,43 @@
+body {
+	background-color: #0057FF;
+}
+
+.images {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	/*margin: 20px;*/
+}
+
+.days {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	grid-gap: 170px;
+}
+
+.section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-top: 50px;
+}
+
+.faces {
+	max-height: 550px;
+	margin-right: 40px;
+}
+
+.data {
+	max-height: 600px;
+}
+
+a {
+	text-decoration: underline;
+	color: white;
+	font-family: 'Roboto Slab', serif;
+	font-weight: lighter;
+}

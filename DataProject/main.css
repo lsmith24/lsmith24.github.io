@@ -1,0 +1,133 @@
+body {
+	background-color: #0057FF;
+}
+
+.focus {
+	color: white;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	height: 65vh;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1 {
+	border-width: 5px;
+	color: white;
+	border-style: solid;
+	padding: 10px;
+	padding-right: 20px;
+	padding-left: 20px;
+	font-family: 'Roboto Slab', serif;
+	font-weight: lighter;
+	font-size: 50px;
+}
+
+.squares {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-evenly;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.sq {
+	height: 80px;
+	width: 80px;
+	background-color: #DB4FF2;
+	border-radius: 10px;
+}
+
+@keyframes animation1 {
+	0% {
+		transform: rotate(-20deg);
+	}
+
+	50% {
+		transform: rotate(45deg);
+	}
+
+	100% {
+		transform: rotate(-20deg);
+	}
+}
+
+@keyframes animation2 {
+	0% {
+		transform: rotate(10deg);
+	}
+
+	50% {
+		transform: rotate(-50deg);
+	}
+
+	100% {
+		transform: rotate(10deg);
+	}
+}
+
+@keyframes animation3 {
+	0% {
+		transform: rotate(40deg);
+	}
+
+	50% {
+		transform: rotate(-10deg);
+	}
+
+	100% {
+		transform: rotate(40deg);
+	}
+}
+
+.sq1 {
+	animation: animation1 2s linear infinite;
+}
+
+.sq2 {
+	background-color: #EFD23C;
+	animation: animation2 2s linear infinite;
+}
+
+.sq3 {
+	background-color: #20BCEE;
+	animation: animation3 2s linear infinite;
+}
+
+.sq4 {
+	animation: animation1 2s linear infinite;
+}
+
+.sq5 {
+	background-color: #F3A50D;
+	animation: animation2 2s linear infinite;
+}
+
+.sq6 {
+	background-color: #F3A50D;
+	animation: animation3 2s linear infinite;
+}
+
+.sq7 {
+	background-color: #20BCEE;
+	animation: animation2 2s linear infinite;
+}
+
+.sq8 {
+	animation: animation1 2s linear infinite;
+}
+
+.sq9 {
+	background-color: #EFD23C;
+	animation: animation3 2s linear infinite;
+}
+
+.sq10 {
+	background-color: #20BCEE;
+	animation: animation2 2s linear infinite;
+}
