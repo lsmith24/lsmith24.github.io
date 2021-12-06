@@ -87,6 +87,7 @@ h1 {
 
 .sq1 {
 	animation: animation1 2s linear infinite;
+	/*background-color: #83E38C;*/
 }
 
 .sq2 {
@@ -101,6 +102,7 @@ h1 {
 
 .sq4 {
 	animation: animation1 2s linear infinite;
+	background-color: #83E38C;
 }
 
 .sq5 {
@@ -114,7 +116,7 @@ h1 {
 }
 
 .sq7 {
-	background-color: #20BCEE;
+	background-color: #83E38C;
 	animation: animation2 2s linear infinite;
 }
 
