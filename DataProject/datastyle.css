@@ -15,7 +15,7 @@ body {
 	flex-direction: row;
 	align-items: center;
 	justify-content: center;
-	grid-gap: 170px;
+	grid-gap: 150px;
 }
 
 .section {
@@ -40,4 +40,27 @@ a {
 	color: white;
 	font-family: 'Roboto Slab', serif;
 	font-weight: lighter;
+}
+
+@media only screen and (max-width:  800px) {
+	.days {
+		grid-gap: 50px;
+	}
+
+	.faces {
+		margin-right: 10px;
+		max-height: 300px;
+	}
+
+	.data {
+		max-width: 400px;
+	}
+
+	a {
+		font-size: 14px;
+	}
+
+	.images {
+		padding-top: 10vh;
+	}
 }

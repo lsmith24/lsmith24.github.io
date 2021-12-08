@@ -89,6 +89,11 @@ p {
 		font-size: 28px;
 	}
 
+	.arrow {
+		max-width: 15px;
+		padding-left: 15px;
+	}
+
 	.social {
 		font-size: 16px;
 	}
@@ -123,10 +128,4 @@ p {
 		max-width: 250px;
 		padding-left: 5px;
 	}
-
-	.arrow {
-		max-width: 15px;
-		padding-left: 15px;
-	}
-
 }
