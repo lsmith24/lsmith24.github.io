@@ -8,7 +8,7 @@ body {
 	flex-direction: row;
 	align-items: center;
 	justify-content: center;
-	height: 65vh;
+	/*height: 65vh;*/
 }
 
 a {
@@ -24,7 +24,18 @@ h1 {
 	padding-left: 20px;
 	font-family: 'Roboto Slab', serif;
 	font-weight: lighter;
-	font-size: 50px;
+	font-size: 28px;
+}
+
+p {
+	font-family: 'Roboto Slab', serif;
+	font-weight: lighter;
+	color: white;
+	font-size: 24px;
+	margin-left: 150px;
+	margin-right: 150px;
+	margin-top: 80px;
+	text-indent: 50px;
 }
 
 .squares {
@@ -32,8 +43,16 @@ h1 {
 	flex-direction: row;
 	align-items: center;
 	justify-content: space-evenly;
+	/*padding-top: 20px;
+	padding-bottom: 20px;*/
+}
+
+.s1 {
 	padding-top: 20px;
-	padding-bottom: 20px;
+}
+
+.s2 {
+	height: 33vh;
 }
 
 .sq {
@@ -132,4 +151,16 @@ h1 {
 .sq10 {
 	background-color: #20BCEE;
 	animation: animation2 2s linear infinite;
+}
+
+@media only screen and (max-width:  800px) {
+	p {
+		font-size: 24px;
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+
+	h1 {
+		font-size: 24px;
+	}
 }

@@ -2,6 +2,17 @@ body {
 	background-color: #0057FF;
 }
 
+.title {
+	color: white;
+	font-size: 24px;
+	font-family: 'Roboto Slab', serif;
+	font-weight: lighter;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
 .images {
 	display: flex;
 	flex-direction: row;
@@ -15,7 +26,7 @@ body {
 	flex-direction: row;
 	align-items: center;
 	justify-content: center;
-	grid-gap: 150px;
+	grid-gap: 115px;
 }
 
 .section {
@@ -23,16 +34,17 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	padding-top: 50px;
+	/*padding-top: 10px;*/
 }
 
 .faces {
-	max-height: 550px;
+	max-height: 475px;
 	margin-right: 40px;
+	padding-bottom: 60px;
 }
 
 .data {
-	max-height: 600px;
+	max-height: 500px;
 }
 
 a {
