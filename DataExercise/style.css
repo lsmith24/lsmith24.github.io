@@ -1,0 +1,39 @@
+body {
+	background-color: #e3d9bf;
+	color: #362b10;
+	font-family: arial;
+	font-size: 24px;
+	padding: 20px;
+}
+
+svg {
+	background-color: #362b10;
+	color: #e3d9bf;
+}
+
+h1 {
+  font-weight: normal;
+  font-size:  50px;
+}
+
+
+.tick {
+  font-size:  20px;
+  letter-spacing: 1px;
+}
+
+.domain {
+  display: none;
+}
+
+line {
+  display: none;
+}
+.rectangle {
+  transition: fill 500ms ease;
+}
+
+.rectangle:hover {
+  fill: #bfab78;
+  cursor: pointer;
+}
